@@ -1,4 +1,4 @@
-# flutter_pizza_bloc
+# pizza_bloc_flutter
 
 A new Flutter project.
 

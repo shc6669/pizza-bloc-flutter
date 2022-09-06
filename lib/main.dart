@@ -49,10 +49,18 @@ class HomeScreen extends StatelessWidget {
               return Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
+                  const Text(
+                    'Total Pizza',
+                    style: TextStyle(
+                      fontSize: 50,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  const SizedBox(height: 20),
                   Text(
                     '${state.pizzas.length}',
                     style: const TextStyle(
-                      fontSize: 60,
+                      fontSize: 45,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
